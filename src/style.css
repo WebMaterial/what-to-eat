@@ -566,24 +566,11 @@ body {
     line-height: 170%;
   }
 
-  .front-txt__button, .search__button {
-    font-size: 1rem;
-    padding: 6px 20px;
-    min-width: 100px;
-    margin: 24px auto;
-  }
-
   .swiper__title {
     font-size: 1rem;
     margin-bottom: 16px;
   }
 
-  .copy-button {
-    font-size: 1rem;
-    padding: 6px 20px;
-    min-width: 100px;
-    margin: 12px auto;
-  }
 
   .swiper-content {
     margin: 40px auto;

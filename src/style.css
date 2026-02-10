@@ -571,7 +571,15 @@ body {
     margin-bottom: 16px;
   }
 
-
+  .front-txt__button, .search__button {
+    min-width: 140px;
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    margin: 32px auto;
+    padding: 10px 32px;
+  }
+  
   .swiper-content {
     margin: 40px auto;
   }

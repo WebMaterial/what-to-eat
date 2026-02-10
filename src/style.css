@@ -521,3 +521,173 @@ body {
   width: 100%;
   height: auto;
 }
+
+/* =========================
+   Responsive (Tablet and Down)
+   ========================= */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    min-height: 100vh;
+  }
+
+  .marquee {
+    width: 32px;
+  }
+
+  .marquee span {
+    font-size: 1rem;
+  }
+
+  .header .header__title {
+    padding: 16px 0;
+  }
+
+  .header .header__title img {
+    width: 20vw;
+    height: auto;
+  }
+
+
+  .center-content {
+    width: calc(100% - (32px * 2));
+  }
+
+  .front-txt__inner {
+    padding: 0 16px;
+  }
+
+  .front-txt__title {
+    font-size: 1.2rem;
+  }
+
+  .front-txt__description {
+    font-size: 1rem;
+    line-height: 170%;
+  }
+
+  .front-txt__button, .search__button {
+    min-width: 140px;
+    font-size: 1.2rem;
+    padding: 14px 24px;
+    margin: 24px auto;
+  }
+
+  .swiper__title {
+    font-size: 1rem;
+    margin-bottom: 16px;
+  }
+
+  .copy-button {
+    font-size: 1.2rem;
+    padding: 8px 16px;
+    margin: 12px auto;
+  }
+
+  .swiper-content {
+    margin: 40px auto;
+  }
+
+  .front-swiper {
+    border-radius: 8px;
+  }
+
+  .front-slide {
+    height: 220px;
+  }
+
+  /* ページネーションを中央下に */
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    left: 50%;
+    right: initial;
+    transform: translateX(-50%);
+    bottom: 8px;
+    width: auto;
+  }
+
+  .icon-wrapper {
+    padding: 16px 0;
+  }
+  .icon-text {
+    width: 160px;
+    height: 160px;
+  }
+  .icon-text span {
+    font-size: 96px;
+  }
+
+  .category__inner {
+    padding: 0 16px;
+  }
+  .category__group {
+    margin-bottom: 32px;
+  }
+  .category__title {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .category__list {
+    gap: 6px;
+  }
+  .category__button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .footer__inner {
+    justify-content: center;
+    gap: 12px;
+  }
+  .footer__links {
+    justify-content: center;
+    gap: 12px 16px;
+  }
+  .footer__legal {
+    font-size: 12px;
+  }
+
+  .feedback-icon {
+    width: 44px;
+    height: 44px;
+    bottom: 16px;
+    right: 16px;
+  }
+}
+
+/* =========================
+   Responsive (Small Mobile)
+   ========================= */
+@media (max-width: 480px) {
+  .front-txt__title {
+    font-size: 18px;
+  }
+  .front-txt__description {
+    font-size: 15px;
+  }
+  .front-txt__button, .search__button {
+    font-size: 16px;
+    padding: 12px 20px;
+    min-width: 130px;
+  }
+  .front-slide {
+    height: 200px;
+  }
+  .icon-text {
+    width: 140px;
+    height: 140px;
+  }
+  .icon-text span {
+    font-size: 84px;
+  }
+  .category__title {
+    font-size: 17px;
+  }
+  .category__button {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+  /* フィードバックボタンは最小画面では非表示にして誤タップ回避 */
+  .feedback-icon {
+    display: none;
+  }
+}

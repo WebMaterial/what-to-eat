@@ -567,9 +567,9 @@ body {
   }
 
   .front-txt__button, .search__button {
-    min-width: 140px;
-    font-size: 1.2rem;
-    padding: 14px 24px;
+    font-size: 1rem;
+    padding: 6px 20px;
+    min-width: 100px;
     margin: 24px auto;
   }
 
@@ -579,8 +579,9 @@ body {
   }
 
   .copy-button {
-    font-size: 1.2rem;
-    padding: 8px 16px;
+    font-size: 1rem;
+    padding: 6px 20px;
+    min-width: 100px;
     margin: 12px auto;
   }
 
@@ -663,11 +664,6 @@ body {
   }
   .front-txt__description {
     font-size: 15px;
-  }
-  .front-txt__button, .search__button {
-    font-size: 16px;
-    padding: 12px 20px;
-    min-width: 130px;
   }
   .front-slide {
     height: 200px;
